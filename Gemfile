@@ -7,6 +7,7 @@ gem 'sqlite3'
 gem 'delayed_job'
 gem 'delayed_job_ironmq'
 gem 'daemons'
+gem 'typhoeus'
 
 # Gems used only for assets and not required
 # in production environments by default.
