@@ -18,6 +18,8 @@ Or if you're using the IronMQ Heroku add-on, you don't need to do either of thos
 
 ## 2. Start the app
 
+Clone this github repository then start up the app with: 
+
     rails s
 
 ## 3. Start a worker
