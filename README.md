@@ -25,3 +25,15 @@ Or if you're using the IronMQ Heroku add-on, you don't need to do either of thos
 ## 4. Surf to [localhost:3000](http://localhost:3000)
 
 And watch the worker output on the console.
+
+# What's Going On?
+
+Take a look at `WelcomeController.index` and `User` model to see what's going on. In WelcomeController.index
+it's calling:
+
+```ruby
+user = User.new
+user.delay.background_stuff(WelcomeController.increment)
+```
+
+So `User.background_stuff` is being called in the background.
