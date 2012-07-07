@@ -1,8 +1,10 @@
 # Getting Started
 
-## 1. Set your [Iron.io](http://www.iron.io) project id
+## 1. Setup your  [Iron.io](http://www.iron.io) Credentials and Project ID
 
-Either create an iron.json file in this directory with:
+If you haven't already, read this page to set it up: http://dev.iron.io/articles/configuration/
+
+To choose a specific project for this, add an iron.json file in this directory with:
 
 ```json
 {
@@ -10,11 +12,13 @@ Either create an iron.json file in this directory with:
 }
 ```
 
-Or set the IRON_PROJECT_ID environment variable.
+Or set the `IRON_PROJECT_ID` environment variable.
 
 Or if you're using the IronMQ Heroku add-on, you don't need to do either of those.
 
 ## 2. Start the app
+
+Clone this github repository then start up the app with: 
 
     rails s
 
