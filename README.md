@@ -2,7 +2,7 @@
 
 ## 1. Setup your  [Iron.io](http://www.iron.io) Credentials and Project ID
 
-If you haven't already, read this page to set it up: http://dev.iron.io/articles/configuration/
+If you haven't already, read this page to set up your credentials: http://dev.iron.io/articles/configuration/
 
 To choose a specific project for this, add an iron.json file in this directory with:
 
