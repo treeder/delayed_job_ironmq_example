@@ -22,7 +22,7 @@ Clone this github repository then start up the app with:
 
     rails s
 
-## 3. Start a worker
+## 3. Start a DJ process
 
     rake jobs:work
 
